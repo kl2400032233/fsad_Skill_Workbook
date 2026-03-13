@@ -15,12 +15,12 @@
     <bean id="student" class="com.klu.Student">
 
         <!-- Constructor Injection -->
-        <constructor-arg value="101"/>
-        <constructor-arg value="ram"/>
+        <constructor-arg value="32233"/>
+        <constructor-arg value="yasasri"/>
         <constructor-arg value="2026"/>
 <!-- Setter Injection -->
         <property name="course" ref="course"/>
-        <property name="email" value="ram@klu.edu"/>
-        <property name="phoneNumber" value="9876543210"/>
+        <property name="email" value="yashi@gmail.com"/>
+        <property name="phoneNumber" value="9542130883"/>
 </bean>
 </beans>
